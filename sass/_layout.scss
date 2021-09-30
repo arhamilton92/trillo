@@ -12,7 +12,10 @@
 .header {
     height: 7rem;
     background-color: #fff;
-    border-bottom: var(--color-light-grey-2)
+    border-bottom: var(--color-light-grey-2);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .content {
