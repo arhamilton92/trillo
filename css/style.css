@@ -45,6 +45,7 @@ body {
   border-radius: 2px; }
 
 .header {
+  font-size: 1.4rem;
   height: 7rem;
   background-color: #fff;
   border-bottom: var(--color-light-grey-2);
@@ -88,6 +89,9 @@ body {
       outline: none;
       width: 100%;
       background-color: var(--color-grey-light-3); }
+    .search__input::webkit-input-placeholder {
+      font-weight: 100;
+      color: var(--color-grey-light-4); }
   .search__button {
     border: none; }
     .search__button:focus {
